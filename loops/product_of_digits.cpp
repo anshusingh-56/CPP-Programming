@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n,i, product = 1, rem;
+    cout<<"Enter a number: ";
+    cin>>n;
+
+     while(n > 0)
+    {
+        rem = n % 10;
+        product = product * rem;
+        n = n / 10;
+    }
+
+    cout<<"Product of digits = "<<product;
+    
+    return 0;
+}
