@@ -5,7 +5,7 @@ int main(){
 
     int a[5], found = 0, i, n;
 
-    cout << "Enter five numbers";
+    cout << "Enter five numbers: ";
 
     for(i = 0; i < 5; i++)
     {
